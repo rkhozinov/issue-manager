@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'TrackStar',
+	'name'=>'Issue Manager',
 	'id'=>'TrackStar',
 	'theme'=>'newtheme',
 	//'language'=>'rev',
