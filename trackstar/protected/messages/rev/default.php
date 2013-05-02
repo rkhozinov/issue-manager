@@ -1,6 +1,6 @@
 <?php
 return array(
-    'Username' => 'Emanresu',
-    'Password' => 'Drowssap',
+    'Username' => 'admin',
+    'Password' => 'admin',
     'Remember me next time' => 'Emit txen em rebmemer',
 );
