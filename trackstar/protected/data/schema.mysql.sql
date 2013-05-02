@@ -312,6 +312,7 @@ CREATE TABLE `tbl_user` (
 LOCK TABLES `tbl_user` WRITE;
 /*!40000 ALTER TABLE `tbl_user` DISABLE KEYS */;
 INSERT INTO `tbl_user` VALUES (1,'User One','admin@nosuchaddress.nothing','5a105e8b9d40e1329780d62ea2265d8a','2012-11-29 18:34:26',NULL,NULL,NULL,NULL);
+INSERT INTO `tbl_user` VALUES (2,'user','fallrabble@gmail.com',md5('swordfish'),'2013-05-2 18:34:26',NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `tbl_user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
