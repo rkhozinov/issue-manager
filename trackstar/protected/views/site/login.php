@@ -31,7 +31,7 @@ $this->breadcrumbs=array(
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
 		<p class="hint">
-            This application was created for the "Integration Systems" course.
+            This application was created for the "Integration Systems" course.<br/>
             If you need access to the application, please contact with administrator.
 		</p>
 	</div>
