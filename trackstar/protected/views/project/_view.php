@@ -25,7 +25,7 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('update_user_id')); ?>:</b>
-	<?php echo CHtml::encode($data->update_user_id); ?>
+	<?php echo CHtml::encode(User::model()->find('id='.$data->update_user_id)->username);?>
 	<br />
 
 
