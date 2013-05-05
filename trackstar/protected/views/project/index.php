@@ -42,6 +42,7 @@ if($this->beginCache($key, array('dependency'=>array(
 	$this->widget('RecentCommentsWidget');
 	$this->endWidget();
 	$this->endCache(); 
+}
 
 ?>
 
