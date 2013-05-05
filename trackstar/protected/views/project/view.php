@@ -25,7 +25,7 @@ if(Yii::app()->user->checkAccess('createUser',array('project'=>$model)))
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'id',
+	//	'id',
 		'name',
 		'description',
 		'create_time',
