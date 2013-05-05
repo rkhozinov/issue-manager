@@ -1,4 +1,2 @@
-yiibook-trackstar-code
+Issue Manager
 ======================
-
-Chapter-By-Chapter snapshots of the Trackstar codebase

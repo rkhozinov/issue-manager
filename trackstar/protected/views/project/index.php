@@ -46,7 +46,7 @@ if($this->beginCache($key, array('dependency'=>array(
 
 
 
-	/*
+
 	$this->beginWidget('zii.widgets.CPortlet', array(
 		'title'=>'Recent Comments',
 	));  
@@ -54,6 +54,5 @@ if($this->beginCache($key, array('dependency'=>array(
 	$this->widget('RecentCommentsWidget');
 
 	$this->endWidget();
-	*/ 
 ?>
 
