@@ -31,7 +31,7 @@ $this->breadcrumbs=array(
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
 		<p class="hint">
-			This application is intended to be a reference for those following along with the book. If you would like to request access prior to purchasing the book, please <a href="http://www.seesawlabs.com/yii-book/author-contact"> contact the author</a>.
+            This application was created for the "Integration Systems" course.
 		</p>
 	</div>
 
