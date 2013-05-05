@@ -32,6 +32,7 @@ $this->breadcrumbs=array(
 		<?php echo $form->error($model,'password'); ?>
 		<p class="hint">
             This application was created for the "Integration Systems" course.
+            If you need access to the application, please contact with administrator.
 		</p>
 	</div>
 
